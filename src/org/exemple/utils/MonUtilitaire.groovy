@@ -2,7 +2,7 @@ package org.exemple.utils
 
 class MonUtilitaire implements Serializable {
     static void saluer(script, nom) {
-        script.echo "Bonjour de la Shared Library, ${nom} !"
+        script.echo "Bonjour de la Shared Library, fait par Nassim ${nom} !"
     }
 
     static String genererMessage(String type) {
